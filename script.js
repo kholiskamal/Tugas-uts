@@ -37,9 +37,9 @@ function compOption() {
 }
 
 function randomImg() {
-    return `<img src="img/batu.png" alt="batu" class="img-comp img-comp-1">
-            <img src="img/gunting.png" alt="gunting" class="img-comp img-comp-2">
-            <img src="img/kertas.png" alt="kertas" class="img-comp img-comp-3">`;
+    return `<img src="batu.png" alt="batu" class="img-comp img-comp-1">
+            <img src="gunting.png" alt="gunting" class="img-comp img-comp-2">
+            <img src="kertas.png" alt="kertas" class="img-comp img-comp-3">`;
 }
 
 function popupBoxCodes(playerImg, compImg, resultText, scorTxt) {
