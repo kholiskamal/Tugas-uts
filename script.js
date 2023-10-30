@@ -10,10 +10,10 @@ btnPlayerImg.forEach(m => {
         let compImg = compOption();
         let playerImg = this.dataset.img;
 
-        playerArea.innerHTML = `<img src="./${playerImg}.png" alt="batu" class="img-player-js">`;
+        playerArea.innerHTML = `<img src="${playerImg}.png" alt="batu" class="img-player-js">`;
         this.style.background = 'grey';
 
-        setTimeout(() => compArea.innerHTML = `<img src="./${compImg}.png" alt="batu" class="img-player-js">`, 700);
+        setTimeout(() => compArea.innerHTML = `<img src="${compImg}.png" alt="batu" class="img-player-js">`, 700);
         gameResults(playerImg, compImg);
 
         setTimeout(() => {
